@@ -1,0 +1,7 @@
+{
+    "include": ["./", "Vector/@types", "@types", "node_modules/@types/p5", "lib"],
+    "exclude": [],
+    "compilerOptions": {
+        "target": "ES2016"
+    }
+}

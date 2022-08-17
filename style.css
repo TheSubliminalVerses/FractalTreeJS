@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="text"] {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 200px;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 12px;
+}
+
+div.container {
+    padding: 12px 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+div.container a {
+    text-decoration: none;
+    color: black;
+    transition: .5s linear;
+}
+
+div.container a:hover {
+    color: rosybrown;
+    cursor: pointer;
+}
+
+div.about {
+    position: absolute;
+    display: none;
+    top: 45%;
+    left: 50%;
+    z-index: 999;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid black;
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.about span.close {
+    position: relative;
+    left: 40%;
+    top: 5%;
+    font-weight: bold;
+    transition: .5s linear;
+}
+
+div.about span.close:hover {
+    cursor: pointer;
+    color: red;
+}
